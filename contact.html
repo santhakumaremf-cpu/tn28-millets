@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | TN28 Millets</title>
+  <meta name="description" content="Discuss your requirement with TN28 Millets - Private label and manufacturing enquiries.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo">TN28 <span>Millets</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About Us</a>
+          <a href="why-us.html">Why Us</a>
+          <a href="white-label.html">White Label</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="contact.html" class="btn btn-primary active">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 3.5rem 0 4rem;">
+    <div class="container">
+      <h1>Discuss Your Requirement</h1>
+      <p>Whether you're starting a new brand or expanding your portfolio — we're ready to help.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          
+          <div class="info-item">
+            <div style="font-size:1.4rem;">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div style="font-size:1.4rem;">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div style="font-size:1.4rem;">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p>info@tn28millets.com</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div style="font-size:1.4rem;">📍</div>
+            <div>
+              <strong>Location</strong>
+              <p>Tamil Nadu, India</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div style="font-size:1.4rem;">🕐</div>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon – Sat: 9:00 AM – 6:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/919876543210" target="_blank" class="btn btn-primary" style="margin-top:1rem; width:100%;">Message on WhatsApp</a>
+        </div>
+
+        <div>
+          <form onsubmit="event.preventDefault(); alert('Thank you! We will contact you soon. (This is a demo form)');">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your company name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="you@company.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+            </div>
+            
+            <div class="form-group">
+              <label for="type">Business Type</label>
+              <select id="type" name="type">
+                <option value="">Select...</option>
+                <option value="startup">New Brand / Startup</option>
+                <option value="existing">Existing Brand</option>
+                <option value="distributor">Distributor / Trader</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Requirement *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about the products, quantities, packaging or any specific needs..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width:100%;">Submit Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="cards" style="grid-template-columns:1fr;">
+        <div class="card">
+          <h3>Do you offer private-label and white-label manufacturing?</h3>
+          <p>Yes. We support customized food manufacturing based on product, ingredients, packaging and order quantity.</p>
+        </div>
+        <div class="card">
+          <h3>What is the minimum order quantity?</h3>
+          <p>For customized products, minimum order quantity is typically 100 kg and above. Pricing varies by product and customization.</p>
+        </div>
+        <div class="card">
+          <h3>How long does product development take?</h3>
+          <p>Depending on complexity and approvals, customization usually takes approximately 20–30 working days.</p>
+        </div>
+        <div class="card">
+          <h3>Can we order samples?</h3>
+          <p>Yes. Sample packs are available. Retail packs from 500 g and bulk from 5 kg onwards for existing products.</p>
+        </div>
+        <div class="card">
+          <h3>What certifications do you have?</h3>
+          <p>FSSAI, ISO 22000:2018, GMP and related quality documents are available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TN28 Millets</h4>
+          <p>B2B Millet Food Manufacturer & Private Label Partner.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="products.html">Products</a></p>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="why-us.html">Why Us</a></p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <p><a href="solutions.html">Solutions</a></p>
+          <p><a href="white-label.html">Private Label</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Tamil Nadu, India</p>
+          <p>info@tn28millets.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 TN28 Millets. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
