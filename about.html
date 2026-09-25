@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | TN28 Millets</title>
+  <meta name="description" content="About TN28 Millets - More than a manufacturer. A partner behind your brand.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo">TN28 <span>Millets</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="why-us.html">Why Us</a>
+          <a href="white-label.html">White Label</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 3.5rem 0 4rem;">
+    <div class="container">
+      <h1>More Than a Manufacturer.<br>A Partner Behind Your Brand.</h1>
+      <p>At TN28 Millets, we believe every great food brand starts with an idea — but ideas alone don't reach the shelf.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <p style="font-size:1.1rem; color:var(--text-muted); margin-bottom:1.5rem;">Getting there takes product expertise, dependable processes, manufacturing capability, and unwavering consistency — the parts of the journey that go unseen but decide whether a brand succeeds.</p>
+        <p style="font-size:1.1rem; color:var(--text-muted); margin-bottom:1.5rem;">We work with businesses who want to develop and manufacture food products without the cost, time, or risk of building their own manufacturing infrastructure.</p>
+        <p style="font-size:1.1rem; color:var(--text-muted); margin-bottom:2rem;">As your B2B food manufacturing partner, we work behind the scenes — turning product requirements into commercially viable, market-ready food products, while you focus on building your brand and reaching your customers.</p>
+        
+        <div style="background:var(--bg-light); padding:1.75rem; border-radius:12px; text-align:center;">
+          <p style="font-weight:600; color:var(--primary-dark); font-size:1.15rem;">Your brand remains yours.<br>Your vision remains yours.<br>We bring the manufacturing expertise behind it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <div class="cards" style="grid-template-columns:1fr;">
+        <div class="card">
+          <h3>Our Mission</h3>
+          <p>To give food businesses dependable manufacturing capability — the production capacity, quality systems, and technical expertise to turn good food ideas into consistent, market-ready products. We combine certified manufacturing processes, disciplined production standards, and hands-on formulation support to help businesses build and scale their product portfolios with confidence.</p>
+        </div>
+        <div class="card">
+          <h3>Our Vision</h3>
+          <p>To be the certified, trusted manufacturing capability behind the next generation of Indian food brands. We envision a future where food entrepreneurs and established businesses alike can access dependable production expertise, develop meaningful products, and scale their ideas — backed by manufacturing they can rely on.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Meet Our Leadership</h2>
+        <p>The people leading TN28 Millets' manufacturing operations, quality standards, and production growth.</p>
+      </div>
+      <div class="founders">
+        <div class="founder-card">
+          <div class="founder-avatar">👨‍💼</div>
+          <h3>Founder & CEO</h3>
+          <p style="color:var(--text-muted);">Leading strategy, operations and partnerships</p>
+        </div>
+        <div class="founder-card">
+          <div class="founder-avatar">👩‍💼</div>
+          <h3>Co-Founder</h3>
+          <p style="color:var(--text-muted);">Quality systems & product development</p>
+        </div>
+        <div class="founder-card">
+          <div class="founder-avatar">👨‍🔬</div>
+          <h3>Technical Director</h3>
+          <p style="color:var(--text-muted);">Formulation & manufacturing excellence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Partner With Us?</h2>
+      <p>Let's discuss how TN28 Millets can support your brand's manufacturing needs.</p>
+      <a href="contact.html" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TN28 Millets</h4>
+          <p>B2B Millet Food Manufacturer & Private Label Partner.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="products.html">Products</a></p>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="why-us.html">Why Us</a></p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <p><a href="solutions.html">Solutions</a></p>
+          <p><a href="white-label.html">Private Label</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Tamil Nadu, India</p>
+          <p>info@tn28millets.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 TN28 Millets. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
